@@ -1,0 +1,442 @@
+.career_opt
+{
+    width:100%;
+    max-height: 230px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.career_opt img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+}
+.career_opt:after
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+38,000000+100&0+38,0.49+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 38%, rgba(0,0,0,0.49) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 38%,rgba(0,0,0,0.49) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 38%,rgba(0,0,0,0.49) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#7d000000',GradientType=0 ); /* IE6-9 */
+position: absolute;
+content: "";
+width: 100%;
+height:100%;
+left: 0;
+}
+.career_opt img
+{
+    opacity: 0.7;
+}
+.career_text
+{
+    position: absolute;
+    background-position: bottom center;
+    content: "";
+    width: 100%;
+    height: auto;
+    bottom: 10px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 15px;
+    font-weight:600 !important;
+    color: #fff;
+    z-index: 1;
+}
+.two_padding
+{
+    padding: 2px 2px !important;
+}
+.ov
+{
+    position: relative;
+}
+
+.career_hover
+{
+    width: 596px;
+    min-height: 464px;
+    background-color: #009fd6;
+    z-index: 2;
+    position: absolute;
+    padding: 30px;
+    left: 2px;
+    top: 2px;
+    content: "";
+    visibility:hidden;
+    opacity:0;
+    transition: all 0.2s ease-in ;
+}
+.ps
+{
+    position: static!important;
+        overflow-y: scroll;
+}
+.ov:hover > .career_hover {
+    visibility:visible;
+    opacity:1;
+}
+.apply_header
+{
+    font-size: 30px;
+    font-family: 'pf_dintext_probold'; 
+    color: #fff !important;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-weight: 600;
+}
+.apply_header_small
+{
+    font-size: 18px;
+    font-family: 'pf_dintext_probold'; 
+    color: #fff !important;
+    text-transform: uppercase;
+    line-height:normal;
+    margin-bottom: 5px;
+}
+
+.apply_btn
+{
+    background-color: transparent;
+    border: 2px solid #fff!important;
+    color: #fff !important;
+    padding: 12px 30px !important;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'pf_dintext_promedium' !important;
+}
+.apply_btn:hover
+{
+    background-color:#fff;
+   /* border: 2px solid #0087e5!important;*/
+    color: #0087e5 !important;
+}
+.right_hover
+{
+    right: 2px !important;
+    left: auto;
+}
+.left_btm_hover
+{
+    right:auto;
+    left: 2px !important;
+    bottom: 2px !important;
+    top: auto !important
+}
+.right_btm_hover
+{
+    left:auto;
+    right: 2px !important;
+    bottom: 2px !important;
+    top: auto !important
+}
+.min-height-0
+{
+    min-height: auto !important;
+}
+.career_apply
+{
+    color: #fff;
+}
+.career_apply .form-control
+{
+    background: transparent;
+    border: 1px solid #616877;
+    color: #D8D8D8 !important;
+        font-size: 18px !important;
+}
+
+.career_apply .form-group textarea {
+    width: 100%;
+    padding: 15px 22px !important;
+    margin-bottom: 25px;
+}
+/*.career_apply .form-control placeholder
+{
+   
+}
+
+.career_apply .form-group input::-webkit-input-placeholder {
+    color:#6c727e;
+}*/
+
+
+/*input[type=file]
+{
+   display: none !important;
+}
+*//*
+.btn-file > input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 23px;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    direction: ltr;
+
+}
+.career_apply .fileinput {
+    display: inline-block!important;
+    margin-bottom: 9px!important;
+}
+.career_apply .fileinput .btn {
+    vertical-align: middle!important;
+}
+.career_apply .btn-file {
+    position: relative!important;
+    overflow: hidden!important;
+    vertical-align: middle!important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    padding: 1px 10px !important;
+    color: #464646;
+     margin-right:10px;
+}
+
+.career_apply .fileinput-filename {
+    display: inline-block!important;
+    overflow: hidden!important;
+    vertical-align: middle!important;
+}
+
+.career_apply .fileinput-new {
+    display: inline-block!important;
+    overflow: hidden!important;
+    vertical-align: middle!important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    color: #666666;
+}*/
+
+
+.career_apply
+{
+    color: #fff;
+}
+.career_apply .form-control
+{
+    background: transparent;
+    border: 1px solid #616877;
+    color: #D8D8D8 !important;
+        font-size: 18px !important;
+}
+
+.career_apply .form-group textarea {
+    width: 100%;
+    padding: 15px 22px !important;
+    margin-bottom: 25px;
+}
+/*.career_apply .form-control placeholder
+{
+   
+}
+
+.career_apply .form-group input::-webkit-input-placeholder {
+    color:#6c727e;
+}*/
+
+
+/*input[type=file]
+{
+   display: none !important;
+}
+*//*
+.btn-file > input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 23px;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    direction: ltr;
+
+}
+.career_apply .fileinput {
+    display: inline-block!important;
+    margin-bottom: 9px!important;
+}
+.career_apply .fileinput .btn {
+    vertical-align: middle!important;
+}
+.career_apply .btn-file {
+    position: relative!important;
+    overflow: hidden!important;
+    vertical-align: middle!important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    padding: 1px 10px !important;
+    color: #464646;
+     margin-right:10px;
+}
+
+.career_apply .fileinput-filename {
+    display: inline-block!important;
+    overflow: hidden!important;
+    vertical-align: middle!important;
+}
+
+.career_apply .fileinput-new {
+    display: inline-block!important;
+    overflow: hidden!important;
+    vertical-align: middle!important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    color: #666666;
+}*/
+.upload_cv
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px;
+    font-weight:normal !important;
+    color: #ccc;
+    float: left;
+    margin-right: 30px;
+    line-height: 35px;
+    margin-bottom: 0px;
+}
+.btn_career_upload
+{
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    color: #333!important;
+    font-family: 'Open Sans', sans-serif!important;
+    font-size: 17px !important;
+    text-transform: capitalize !important;
+    padding: 5px 20px !important;
+}
+.no_bg
+{
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+    box-shadow: none !important;
+    height: auto !important;
+
+}
+.input-group-addon, .input-group-btn
+{
+    vertical-align: top !important;
+}
+.input-group
+{
+    /*display: block !important;*/
+}
+.plr
+{
+    padding: 15px 50px !important; 
+    margin-top: 30px !important;
+}
+
+.career_btm
+{
+    color: #9f9f9f;
+}
+.border_white
+{
+    border:1px solid #e3e3e3;
+}
+
+.navbar-nav .open .dropdown-menu > .active > a
+{
+    background-color: #014d71 !important;
+}
+
+
+/*
+input[type=file].upload
+
+{
+    border-radius: 4px !important;
+}*/
+
+.form-control {
+    border-radius: 5px !important;
+    color: #666 !important;
+    font-size:1.5em !important;
+    letter-spacing: 0px;
+    height: 80px !important;
+  /*  margin-bottom: 5%;*/
+    padding-left: 4% !important;
+    border: 1px solid #e0e0e0;
+}
+.right_box2 select
+{
+    color:#7f7f7f !important;
+}
+.form_heading {
+    background: #ccc none repeat scroll 0 0;
+    color: #333;
+    float: left;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 44px;
+    margin:0px 0 20px 0;
+    padding: 0 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.abt_left h2, .bg_gradient h2
+{
+    text-align: left;
+    margin-top: 0px;
+}
+.abt_left p
+{
+    font-size: 14px;
+    padding-right: 70px;
+    line-height: 21px;
+    color: #666 !important;
+    font-weight: 500;
+}
+.abt_left strong
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #1d1d1d;
+}
+
+.bg_blue {
+    background: #2c364a;
+}
+
+.blue_btn2
+{
+    margin-top: 50px;
+    background-color:#0087e5;
+    
+    padding: 16px 30px !important;
+}
+.blue_btn2:hover
+{
+    
+    background-color:#0077CA;
+    color: #fff !important;
+}
+
+.text_white {
+    color: #fff;
+}
+
+.blue_btn2 {
+    color: #fff !important;
+}
